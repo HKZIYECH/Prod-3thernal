@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+span{
+    font-family: "Agbalumo";
+    color: rgb(202, 35, 202);
+}
+
+body{
+    background-image: linear-gradient(135deg, #9796f0 10%, #FBC7D4 100%);
+    background-size: cover;
+}
+
+h1,h2,h3{
+    text-align: center;
+    font-family: "Inter";
+}
+
+h1{
+    font-size: 60px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.type{
+    background-color: rgb(227, 85, 227);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-color: aqua;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.type:hover{
+    
+    background-color: rgb(182, 135, 227);
+    border-color: black;
+}
+
+
+.classic{
+    background-color: rgb(85, 168, 227);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-color: aqua;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+.classic:hover{
+    
+    background-color: rgb(31, 192, 204);
+    border-color: black;
+}
+.custom{
+    background-color: rgb(85, 227, 99);
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-color: aqua;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.custom:hover{
+    
+    background-color: rgb(49, 233, 101);
+    border-color: black;
+}
+
+button{
+    cursor: pointer;
+    font-family: "Poppins";
+}
+
+.info-card{
+   
+    border-radius: 7px;
+    width: 1050px;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 50px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-family: "poppins";
+}
+
+
+.checkout{
+    text-align: center;
+}
+
+.outro{
+    text-align: center;
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 20px;
+}
+
+.btn{
+    margin-top: 51px;
+}
+
+.footer{
+    font-size: 20px;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: lightblue;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+    }
